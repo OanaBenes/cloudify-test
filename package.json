@@ -12,7 +12,9 @@
   "license": "",
   "homepage": "https://cloudify-cosmo/Cloudify-UI-Widget-boilerplate#readme",
   "dependencies": {
-    "cloudify-stage-dist": "http://cloudify-release-eu.s3.amazonaws.com/cloudify/4.3.0/ga-build/cloudify-stage-4.3.0-ga.tgz"
+    "cloudify-stage-dist": "http://cloudify-release-eu.s3.amazonaws.com/cloudify/4.3.0/ga-build/cloudify-stage-4.3.0-ga.tgz",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
