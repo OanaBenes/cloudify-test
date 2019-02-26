@@ -49,7 +49,7 @@ Stage.defineWidget({
     render: function (widget, data, error, toolbox) {
         let {Loading} = Stage.Basic;
         if (_.isEmpty(data)) {
-            return (<Loading message='Loading pull requests...'></Loading>)
+            return (<Loading message='Loading pull github requests...'></Loading>)
         } else {
             return (
                 <Content data={data} widget={widget}/>
